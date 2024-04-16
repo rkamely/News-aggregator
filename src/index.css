@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    min-width: 100%;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    display: flex;
+    place-items: start;
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    background-color: #191D22;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 1000;
+}
+h2 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.react-datepicker__tab-loop {
+    position: absolute;
+}
+
